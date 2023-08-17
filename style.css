@@ -129,6 +129,22 @@ ul {
     height: 200px;
     padding-top: 10px;
 }
+
+#duckButton {
+    border-radius: 10px;
+    background-color: #94d2bd;
+    border-color: #94d2bd;
+    transition: all 0.3s ease;
+}
+#duckButton:hover {
+    background-color: aquamarine;  
+}
+#duckButton:active {
+    background-color: aquamarine;  
+    cursor: auto;
+    box-shadow: -5px -5px 10px whitesmoke;
+}
+
 .text p {
     color: whitesmoke;
     padding: 10px;

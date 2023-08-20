@@ -124,6 +124,7 @@ ul {
     padding: 10px;
     
 }
+
 #duck img {
     width: 200px;
     height: 200px;
@@ -144,6 +145,26 @@ ul {
     cursor: auto;
     box-shadow: -5px -5px 10px whitesmoke;
 }
+.duck {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.memeContainer {
+    background-color: aquamarine;
+    width: 400px;
+    height: 600px;
+    display: none;
+    align-items: center;
+}
+.memeContainer img {
+    width: 400px;
+    height: auto;
+}
+   
+
 
 .text p {
     color: whitesmoke;
